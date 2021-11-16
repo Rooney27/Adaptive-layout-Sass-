@@ -1,0 +1,15 @@
+$color1: #2b95c8;
+$color2: #6aafd4;
+$color3: #96cbdf;
+$color4: #bbe5e5;
+$color5: #ddeded;
+@import "_mobile.scss";
+@media (min-width: 768px){
+    @import "_tablet.scss";
+}
+@media (min-width: 1340px){
+    @import "_laptop.scss";
+}
+@media (min-width: 1900px){
+    @import "_large.scss";
+}

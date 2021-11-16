@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <nav class="main_menu" id="main_menu">
+        <a id="menu_icon"><i class="fas fa-bars"></i></a>
+        <a href="" id="logo">Логотип</a>
+        <ul>
+            <li><a href="">Главная</a></li>
+            <li><a href="">Каталог</a></li>
+            <li><a href="">О нас</a></li>
+            <li><a href="">Контакты</a></li>
+        </ul>
+    </nav>
+    <script>
+        $("#menu_icon").click(function(){
+            $("#main_menu").toggleClass("main_menu__open")
+        })
+    </script>
+    <div class="header">
+        Приветственный текст !
+        <button>Кнопка</button>
+    </div>
+    <div class="content">
+        <div class="content_block"></div>
+        <div class="content_block"></div>
+        <div class="content_block"></div>
+        <div class="content_block"></div>
+        <div class="content_block"></div>
+        <div class="content_block"></div>
+    </div>
+
+</div>
+    
+
+</body>
+</html>

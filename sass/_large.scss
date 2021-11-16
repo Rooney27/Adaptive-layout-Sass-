@@ -1,0 +1,13 @@
+.content_block{
+    max-width: 500px;
+}
+.main_menu{
+    li{
+        a{
+            &:hover,&:active{
+                color:$color4;
+            }
+        }
+        
+    } 
+}
